@@ -1,0 +1,36 @@
+
+# positive + positive
+# A: 3f800000
+# B: 3f800000
+# C: 40000000
+# positive + negative
+# A: 40800000
+# B: c0e00000
+# C: c0400000
+
+# negative + negative
+# A: c1200000
+# B: c1200000
+# C: c1a00000
+# negative + positive
+# A: c1200000
+# B: 41200000
+# C: 00000000
+
+# positive - positive
+# A: 41200000
+# B: 40a00000
+# C: 40a00000
+# positive - negative
+# A: 40e00000
+# B: c0800000
+# C: 41300000
+# negative - positive
+# A: c0800000
+# B: 40e00000
+# C: c1300000
+
+# negative - negative
+# A: 40e00000
+# B: 40e00000
+# C: 80000000
