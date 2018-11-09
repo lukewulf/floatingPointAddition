@@ -29,10 +29,10 @@ initial begin
     #4; b_s = 1; #1; $display("%h + %h = %h", a, b, c);
     #4; a_s = 1; b_s = 0; #1; $display("%h + %h = %h", a, b, c);
     #4; b_s = 1; #1; $display("%h + %h = %h", a, b, c);
-    #4; a_s = 0; b_s = 0; op = 1; #1; $display("%h + %h = %h", a, b, c);
-    #4; b_s = 1; #1; $display("%h + %h = %h", a, b, c);
-    #4; a_s = 1; b_s = 0; #1; $display("%h + %h = %h", a, b, c);
-    #4; b_s = 1; #1; $display("%h + %h = %h", a, b, c);
+    #4; a_s = 0; b_s = 0; op = 1; #1; $display("%h - %h = %h", a, b, c);
+    #4; b_s = 1; #1; $display("%h - %h = %h", a, b, c);
+    #4; a_s = 1; b_s = 0; #1; $display("%h - %h = %h", a, b, c);
+    #4; b_s = 1; #1; $display("%h - %h = %h", a, b, c);
 end
 
 fp_13 fpu(
